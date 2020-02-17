@@ -1,0 +1,38 @@
+body {
+  display        : flex;
+  justify-content: center;
+  align-items    : center;
+  height         : 100vh;
+  background     : rgb(23, 32, 48);
+  color          : #a63d6a;
+}
+
+table {
+  border-collapse: collapse;
+  border         : 4px solid #a63d6a;
+  padding        : 0;
+  margin         : 0;
+  box-sizing     : border-box;
+}
+
+td {
+  border    : 4px solid #a63d6a;
+  cursor    : pointer;
+  font-size : 50px;
+  text-align: center;
+  padding   : 0;
+  margin    : 0;
+  box-sizing: border-box;
+  width     : 100px;
+  height    : 100px;
+}
+
+.box {
+  overflow: hidden;
+  position: relative;
+  top     : -150px;
+}
+
+.end {
+  pointer-events: none;
+}
